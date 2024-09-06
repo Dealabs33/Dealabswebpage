@@ -1,0 +1,113 @@
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+	<title>DEALABS PACKSTORE'</title>
+	<style>
+#€{
+background-color: blue;
+font-size:20px;
+}
+    *{
+background-color: brown;color:white;
+}
+		.tabs {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			background-color: #f2f2f2;
+			padding: 10px;
+		}
+		.tab-content {
+			padding: 20px;
+		}
+#big{
+width:197px;
+}
+		.side-menu {
+			position: absolute;
+			top: 0;
+			left: 0;
+			background-color: #fff;
+			width: 200px;
+			height: 100vh;
+			padding: 20px;
+			display: none;
+		}
+#234{
+align-items: center;
+}
+p{
+font-size:20px;
+}
+button {
+font-size:20px;
+}
+		.dropdown-content {
+			display: none;
+			padding: 20px;
+			border: 1px solid #ccc;
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="tabs">
+		<button id="tab1-btn">DEALABS APPS</button>
+		<button id="tab2-btn">DEALABS PORTAL</button>
+		<button id="menu-btn">&#9776;</button>
+	</div>
+	<div class="tab-content" id="tab1-content">
+		<h1>LOOKING 👀👀 FOR WHAT THE DEALABS ARE CREATING???? SEE WHAT DEALABS ARE CREATING ALL HERE.😊😊😊</h1>
+		<p>Discover newest and oldest DEALABS apps here...👇👇!</p>
+		<button id="drop1-btn">DEALABS CALC</button>
+		<div class="dropdown-content" id="drop1-content">
+			<!-- Add content here -->
+<h> DEALABSCALC</h>
+<p>Name: dealabs.dealabscalc.divine </p>
+<p> Author: DIVINE EMA ASUQUO</p>
+<p>Size: 4.77mb</p>
+ <a href="#">TAP TO DOWNLOAD</a>
+		</div>
+	</div>
+	<div class="tab-content" id="tab2-content" style="display: none;">
+		<h1>WELCOME TO THE DEVELOPER PORTAL SEE WHAT DEALABS ARE PACKAGING ALL HERE.😊😊😊</h1>
+		<p>Find newest and oldest packages from DEALABS here....👇👇</p>
+		<button id="drop2-btn">Add Content</button>
+		<div class="dropdown-content" id="drop2-content">
+			<!-- Add content here -->
+		</div>
+	</div>
+	<div class="side-menu">
+		<button id="remove-btn">BACK</button><br>
+<div id="€"><button onclick="alert('DEALABS HOSTING IS UNAVAILABLE ')"id="big">Host (unavailable)</button></div>
+<div id="€"><button onclick="alert('THIS WEBSITE IS DEVELOPED BY DEALABS GROUP OF CODERS. LICENSE PLATE NUMBER:6468376899027664474763888365HD7474789636663636674747577489990008474646HFHF')" id="big">VEIW CERTIFICATE</button></div>
+ <p id="234"> Contact us  </p><p>contact dealabs
+company@gmail.com. To deploy or host your app on this platform. Or get through us through our handles on dealabs site.</p>
+div id="€"><a href="https://www.facebook.com/profile.php?id=61564640501747"><button id="big">JOIN DEALABS DEV</button></a></div>
+	</div>
+	<script>
+		document.getElementById('menu-btn').addEventListener('click', function() {
+			document.querySelector('.side-menu').style.display = 'block';
+		});
+		document.getElementById('remove-btn').addEventListener('click', function() {
+			document.querySelector('.side-menu').style.display = 'none';
+		});
+		document.getElementById('drop1-btn').addEventListener('click', function() {
+			document.getElementById('drop1-content').style.display = 'block';
+		});
+		document.getElementById('drop2-btn').addEventListener('click', function() {
+			document.getElementById('drop2-content').style.display = 'block';
+		});
+		document.getElementById('tab1-btn').addEventListener('click', function() {
+			document.getElementById('tab1-content').style.display = 'block';
+			document.getElementById('tab2-content').style.display = 'none';
+		});
+		document.getElementById('tab2-btn').addEventListener('click', function() {
+			document.getElementById('tab1-content').style.display = 'none';
+			document.getElementById('tab2-content').style.display = 'block';
+		});
+	</script>
+</body>
+</html>
